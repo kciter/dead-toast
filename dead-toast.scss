@@ -1,0 +1,25 @@
+
+.dead-toast {
+	position: fixed;
+	bottom: 3vh;
+	left: 0;
+	right: 0;
+	text-align: center;
+	opacity: 0;
+	transition: opacity 0.5s;
+
+	.dead-toast-content {
+		display: inline-block;
+		max-width: 80vw;
+		padding: 1vw 4vw;
+		color: white;
+		font-family: sans-serif;
+		font-size: 6vw;
+		background-color: rgba(0, 0, 0, 0.5);
+		border-radius: 6vw;
+	}
+
+	&.show {
+		opacity: 1;
+	}
+}

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, user-scalable=no">
+		<link rel="stylesheet" type="text/css" href="./dead-toast.min.css">
+	</head>
+	
+	<body>
+		<button>Show Dead Toast!!</button>
+		<script src='./dead-toast.min.js'></script>
+		<script>
+			var button = document.getElementsByTagName('button')[0];
+			button.addEventListener('click', function() {
+				DeadToast.makeText('I\'m a zombie toast~~~', 4000).show();
+			});
+		</script>
+	</body>
+</html>

@@ -1,0 +1,35 @@
+{
+  "name": "dead-toast",
+  "version": "1.0.0",
+  "description": "Dead simple Javascript Toast like Android.",
+  "main": "dead-toast.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kciter/dead-toast.git"
+  },
+  "keywords": [
+    "toast",
+    "js",
+    "javascript",
+    "frontend",
+    "android"
+  ],
+  "author": "Lee Sun-Hyoup <kciter@naver.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kciter/dead-toast/issues"
+  },
+  "homepage": "https://github.com/kciter/dead-toast",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-clean-css": "^2.0.12",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^2.0.0",
+    "gulp-util": "^3.0.7"
+  }
+}
