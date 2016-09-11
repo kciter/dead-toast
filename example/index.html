@@ -3,15 +3,20 @@
 	<head>
 		<meta name="viewport" content="width=device-width, user-scalable=no">
 		<link rel="stylesheet" type="text/css" href="../dead-toast.min.css">
+		<style>
+			img { display: block; width: 50%; max-width: 400px; margin: 0 auto; margin-top: 10vh; }
+			div { text-align: center; font-size: 5vw; }
+		</style>
 	</head>
 	
 	<body>
-		<button>Show Dead Toast!!</button>
+		<img src='../art/logo.png'>
+		<div>Click me!!</div>
 		<script src='../dead-toast.min.js'></script>
 		<script>
-			var button = document.getElementsByTagName('button')[0];
-			var toast = DeadToast.makeText('TEST');
-			button.addEventListener('click', function() {
+			var img = document.getElementsByTagName('img')[0];
+			var toast = DeadToast.makeText("I'm DeadToast!");
+			img.addEventListener('click', function() {
 				toast.show();
 			});
 		</script>
