@@ -7,7 +7,7 @@
 
 <div align="center">
   :bread: Dead simple Javascript Toast like Android.<br>
-  **No dependences and tiny (~1.1kb)**
+  <strong>No dependences and tiny (~1.1kb)</strong>
 </div>
 <div align="center">
   <sub>Created by <a href="https://github.com/kciter">Lee Sun-Hyoup</a>.</sub>
@@ -37,6 +37,24 @@ Or just download [dead-toast.min.js](https://raw.githubusercontent.com/kciter/de
 <link rel="stylesheet" type="text/css" href="dead-toast.min.css">
 <script src="dead-toast.min.js"></script>
 ```
+
+## Usage
+Very simple usage:
+```js
+DeadToast.makeText('Hello, World!').show();
+```
+If you want to avoid Toast accumulation, see the below.
+```js
+var duration = 2000;
+var toast = DeadToast.makeText('message', duration);
+
+$('button').click(function() { // jQuery
+  toast.show();
+});
+```
+
+## Options
+TODO
 
 ## License
 MIT License
