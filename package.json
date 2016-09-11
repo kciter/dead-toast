@@ -2,10 +2,7 @@
   "name": "dead-toast",
   "version": "1.0.0",
   "description": "Dead simple Javascript Toast like Android.",
-  "main": [
-	  "dead-toast.min.js",
-	  "dead-toast.min.css"
-  ],
+  "main": "dead-toast.min.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
