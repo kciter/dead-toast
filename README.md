@@ -14,7 +14,7 @@
 </div>
 
 ## Demo
-[Here]()
+[Here](https://kciter.github.io/dead-toast/)
 
 ## Installation
 ### CDN
