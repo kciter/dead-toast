@@ -1,0 +1,27 @@
+{
+  "name": "dead-toast",
+  "description": "Dead simple Javascript Toast like Android.",
+  "main": [
+	  "dead-toast.min.js",
+	  "dead-toast.min.css"
+  ],
+  "authors": [
+    "Lee Sun-Hyoup <kciter@naver.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "toast",
+    "js",
+    "javascript",
+    "frontend",
+    "android"
+  ],
+  "homepage": "https://github.com/kciter/dead-toast",
+  "ignore": [
+	"**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
