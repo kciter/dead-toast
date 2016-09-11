@@ -7,7 +7,7 @@
 
 <div align="center">
   :bread: Dead simple Javascript Toast like Android.<br>
-  <strong>No dependences and tiny (~1.1kb)</strong>
+  <strong>No dependences and tiny</strong>
 </div>
 <div align="center">
   <sub>Created by <a href="https://github.com/kciter">Lee Sun-Hyoup</a>.</sub>
@@ -43,7 +43,7 @@ Very simple usage:
 ```js
 DeadToast.makeText('Hello, World!').show();
 ```
-If you want to avoid Toast accumulation, see the below.
+If you want to avoid `DeadToast` accumulation, see the below.
 ```js
 var duration = 2000;
 var toast = DeadToast.makeText('message', duration);
@@ -52,9 +52,17 @@ $('button').click(function() { // jQuery
   toast.show();
 });
 ```
+You can cancel the `DeadToast` showing.
+```js
+var duration = 2000;
+var toast = DeadToast.makeText('message', duration);
 
-## Options
-TODO
+$('button').click(function() { // jQuery
+  toast.cancel();
+  // If you want to hide Toast immediately, you should to first parameter set true.
+  // ex) toast.cancel(true);
+});
+```
 
 ## License
 MIT License
