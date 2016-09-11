@@ -4,6 +4,10 @@
 <br>
 
 <h1 align="center">dead-toast</h1>
+<div align="center">
+  <a href="https://www.npmjs.com/package/dead-toast"><img src="https://img.shields.io/npm/v/dead-toast.svg" alt="Version"></a>
+  <a href="https://www.npmjs.com/package/dead-toast"><img src="https://img.shields.io/npm/l/dead-toast.svg" alt="License"></a>
+</div>
 
 <div align="center">
   :bread: Dead simple Javascript Toast like Android.<br>
@@ -19,7 +23,8 @@
 ## Installation
 ### CDN
 ```html
-<script src="https://unpkg.com/dead-toast@1"></script>
+<link rel="stylesheet" type="text/css" href="https://unpkg.com/dead-toast@1.0.0/dead-toast.min.css">
+<script src="https://unpkg.com/dead-toast@1.0.0/dead-toast.min.js"></script>
 ```
 
 ### Bower
@@ -63,6 +68,9 @@ $('button').click(function() { // jQuery
   // ex) toast.cancel(true);
 });
 ```
+
+## ToDo
+* Add test
 
 ## License
 MIT License
