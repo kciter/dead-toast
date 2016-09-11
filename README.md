@@ -1,8 +1,9 @@
-<h1 align="center">dead-toast</h1>
-
 <div align="center">
   <img src='https://github.com/kciter/dead-toast/blob/master/art/logo.png?raw=true' alt='logo' width='300px'>
 </div>
+<br>
+
+<h1 align="center">dead-toast</h1>
 
 <div align="center">
   :bread: Dead simple Javascript Toast like Android.
